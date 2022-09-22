@@ -10,4 +10,10 @@ services:
     tty: true
     env_file:
       - ./env/mongo.env
+  product:
+    build: ./products
+    stdin_open: true
+    tty: true
+    env_file:
+      - ./env/mongo.env
   # client:
