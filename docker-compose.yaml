@@ -9,11 +9,15 @@ services:
     stdin_open: true
     tty: true
     env_file:
-      - ./env/mongo.env
+      - ./env/secret.env
+    ports: 
+      - '8080:8080'
   product:
     build: ./products
     stdin_open: true
     tty: true
     env_file:
-      - ./env/mongo.env
+      - ./env/secret.env
+    ports: 
+      - '8081:8081'
   # client:
