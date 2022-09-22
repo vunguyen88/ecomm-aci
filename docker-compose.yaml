@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  # mongodb:
+  #   image: 'mongo'
+  #   volumes:
+  #     - data:/data/db
+  auth:
+    build: ./auth
+    stdin_open: true
+    tty: true
+    env_file:
+      - ./env/mongo.env
+  # client:
