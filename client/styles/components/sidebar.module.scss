@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
+  max-height: 100%;
+  max-width: 350px;
+  background-color: #f1f1f2;
+  transition: 0.3s;
+  z-index: 100;
+  .top {
+    position: relative;
+    top: 8%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    .sidebar_top_row {
+      //margin-top: 8%;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .sidebar_close_button {
+        border: none;
+        font-size: x-large;
+        position: relative;
+        bottom: 8%;
+        // float: right;
+        margin-right: 8%;
+        font-weight: lighter;
+      }
+      .sidebar_title {
+        //position: relative;
+        //top: 9%;
+        margin-left: 8%;
+        font-weight: bolder;
+        font-size: large;
+        color: gray;
+      }
+    }
+    .sidebar_cart_items {
+      display: block;
+      margin-top: 2%;
+    }
+  }
+
+  .bottom {
+    margin: 8% 5%;
+    display: flex;
+    flex-direction: column;
+    color: #808285;
+    .total {
+      display: flex;
+      justify-content: space-between;
+      text-transform: uppercase;
+    }
+    .shipping_note {
+      font-size: small;
+      font-style: italic;
+    }
+    .checkout_button {
+      text-align: center;
+      color: #808285;
+      text-indent: 0px;
+      text-transform: uppercase;
+      font-weight: lighter;
+      font-size: smaller;
+      padding: 1em 0;
+      height: 40px;
+      background-color: white;
+      border: 1px solid #ded4cb;
+      font-family: 'CalibreRegular', Helvetica, Arial, Sans-Serif;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      align-items: flex-start;
+    }
+  }
+}

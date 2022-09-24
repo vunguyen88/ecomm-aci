@@ -1,4 +1,5 @@
 import express, { Request, Response}  from 'express';
+import axios from 'axios';
 import { body } from 'express-validator';
 import { currentUser, requireAuth, validateRequest, NotAuthorizedError } from '@vuelaine-ecommerce/common';
 import { Product } from '../models/product';
@@ -27,6 +28,10 @@ router.post(
         }
 
         const { name, price, size, details, reviews, color, type, productUrl, category } = req.body;
+        
+        if (!req.headers.cookie) {
+            throw new NotAuthorizedError();
+        }
 
         const product = Product.build({
             name,
@@ -41,6 +46,8 @@ router.post(
             category,
         });
         await product.save();
+
+        // remove pub-sub due to new design solution
         // await new ProductCreatedPublisher(natsWrapper.client).publish({
         //     id: product.id,
         //     name: product.name,
@@ -55,7 +62,17 @@ router.post(
         //     version: product.version,
         //     category: product.category
         // });
-        res.status(201).send(product);
+        
+        // making call to add product to order service
+        axios.post('http://host.docker.internal:3002/api/orders/products', product, {
+            headers: {'cookie': req.headers.cookie}
+        })
+            .then(orderRes => {
+                console.log('Success add product to order service');
+                return res.status(201).send(product);
+            })
+            .catch(err => console.log('ERROR', err))
+        
     }
 );
 

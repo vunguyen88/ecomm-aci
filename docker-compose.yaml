@@ -11,7 +11,7 @@ services:
     env_file:
       - ./env/secret.env
     ports: 
-      - '8080:8080'
+      - '8000:8000'
   product:
     build: ./products
     stdin_open: true
@@ -19,5 +19,20 @@ services:
     env_file:
       - ./env/secret.env
     ports: 
-      - '8081:8081'
+      - '8001:8001'
+  # client:
+  #   build: ./client
+  #   stdin_open: true
+  #   tty: true
+  #   ports: 
+  #     - '3003:3003'
+  order:
+    build: ./orders
+    stdin_open: true
+    tty: true
+    env_file:
+      - ./env/secret.env
+    ports:
+      - '8002:8002'
+
   # client:

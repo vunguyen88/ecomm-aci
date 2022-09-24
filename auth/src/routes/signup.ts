@@ -74,22 +74,22 @@ router.post('/api/users/signup', [
             })
 
         // Generate JwT
-        // const userJwt = jwt.sign(
-        //     {
-        //         id: user.id,
-        //         email: user.email,
-        //         role: user.role,
-        //         phoneNumber: user.phoneNumber,
-        //         verifiedNumber: user.verifiedNumber,
-        //         completeAuth: false
-        //     }, 
-        //     process.env.JWT_KEY!
-        // );
+        const userJwt = jwt.sign(
+            {
+                id: user.id,
+                email: user.email,
+                role: user.role,
+                phoneNumber: user.phoneNumber,
+                verifiedNumber: user.verifiedNumber,
+                completeAuth: false
+            }, 
+            process.env.JWT_KEY!
+        );
 
-        // // Store it on session object
-        // req.session = {
-        //     jwt: userJwt
-        // };
+        // Store it on session object
+        req.session = {
+            jwt: userJwt
+        };
 
         res.status(201).send(user);
 });

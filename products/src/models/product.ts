@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import { updateIfCurrentPlugin } from 'mongoose-update-if-current';
 
 interface ProductAttrs {
     name: string;
@@ -87,8 +86,7 @@ const productSchema = new mongoose.Schema({
     }
 });
 
-productSchema.set('versionKey', 'version');
-productSchema.plugin(updateIfCurrentPlugin);
+//productSchema.set('versionKey', 'version');
 
 productSchema.statics.build = (attrs: ProductAttrs) => {
     return new Product(attrs);

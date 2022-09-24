@@ -1,0 +1,172 @@
+.signin_wrapper {
+  // background-image: url('https://images.pexels.com/photos/929245/pexels-photo-929245.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: url('https://images.pexels.com/photos/5788150/pexels-photo-5788150.jpeg');
+  background-position: center;
+  padding-top: 4rem;
+  background-size: cover;
+  height: 100vh;
+  //   width: 100%;
+  //position: absolute;
+  opacity: 0.7;
+}
+
+.signup_wrapper {
+  background-image: url('https://images.pexels.com/photos/3965543/pexels-photo-3965543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-position: center;
+  //   background-size: cover;
+  padding-top: 4rem;
+  height: 100vh;
+  width: 100%;
+  //   position: absolute;
+  opacity: 0.5;
+}
+
+@mixin fadein-animation($duration) {
+  $name: fadein-#{unique-id()};
+
+  @keyframes #{$name} {
+    @content;
+  }
+  animation-name: $name;
+  animation-duration: $duration;
+  animation-iteration-count: none;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.signin_wrapper {
+  @include fadein-animation(3s) {
+    0% {
+      opacity: 0.3;
+      //transform: translateY(-25px);
+    }
+    25% {
+      opacity: 0.4;
+      //transform: translateY(-25px);
+    }
+    50% {
+      opacity: 0.5;
+      //transform: translateY(-25px);
+    }
+    100% {
+      opacity: 0.6;
+      //transform: translateY(0);
+    }
+  }
+}
+
+.signup_wrapper {
+  @include fadein-animation(3s) {
+    0% {
+      opacity: 0.2;
+      //transform: translateY(-25px);
+    }
+    25% {
+      opacity: 0.3;
+      //transform: translateY(-25px);
+    }
+    50% {
+      opacity: 0.4;
+      //transform: translateY(-25px);
+    }
+    100% {
+      opacity: 0.5;
+      //transform: translateY(0);
+    }
+  }
+}
+
+.form_centered {
+  width: 500px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 50px;
+  margin: auto;
+  margin-top: 200px;
+  border-radius: 30px;
+}
+
+.form-control {
+  //width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.auth_buttoncontainer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.socialbutton {
+  width: 50%;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+  cursor: pointer;
+
+  &_fb {
+    background-color: #3b5998;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  &_google {
+    background-color: #dd4b39;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+  }
+}
+
+/* CSS */
+.button {
+  background-color: #111827d2;
+  border: 1px solid transparent;
+  margin-top: 1.5rem;
+  border-radius: 0.65rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: 'Inter var', ui-sans-serif, system-ui, -apple-system, system-ui,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding: 0.75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6b7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: 0.2s;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.button:hover {
+  background-color: #374151;
+}
+
+.button:focus {
+  box-shadow: none;
+  //   outline: 2px solid transparent;
+  //   outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 0.75rem 1.5rem;
+  }
+}

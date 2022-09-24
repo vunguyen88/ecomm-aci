@@ -1,0 +1,114 @@
+@import 'layout';
+
+.img_section {
+  background-color: #faebd7;
+  display: flex;
+  justify-content: center;
+  padding: 3.5% 6%;
+  .img_container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    .img {
+      margin-bottom: -300px;
+      width: 100%;
+    }
+  }
+}
+
+.source_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 5% 5%;
+  .title {
+    text-align: center;
+    font-weight: 200;
+    font-style: normal;
+    font-family: 'CalibreLight', 'Maison Neue Light', Helvetica, Arial,
+      Sans-Serif;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #ded4cb;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  .content {
+    font-size: 1.4em;
+    line-height: 62px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-weight: lighter;
+    margin: 2% 20%;
+  }
+}
+
+.commitment_section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  overflow: hidden;
+  margin-top: 2rem;
+  .img {
+    margin: 0px 0 0 0px;
+    opacity: 0.85;
+    width: 100%;
+    height: 100%;
+  }
+  .text {
+    position: absolute;
+    top: 45%;
+    //left: 40%;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-family: 'CalibreLight', 'Maison Neue Light', Helvetica, Arial,
+      Sans-Serif;
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: lighter;
+    letter-spacing: 0.15em;
+    line-height: 66px !important;
+  }
+  .signature {
+    display: relative;
+    top: 50%;
+    left: 45%;
+  }
+}
+
+.structure_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 5% 5%;
+  background-color: #696969;
+  .title {
+    text-align: center;
+    font-weight: 200;
+    font-style: normal;
+    font-family: 'CalibreLight', 'Maison Neue Light', Helvetica, Arial,
+      Sans-Serif;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #ded4cb;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  .content {
+    font-size: 1.4em;
+    line-height: 62px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-weight: lighter;
+    margin: 2% 20%;
+    color: #f0fff0;
+  }
+}

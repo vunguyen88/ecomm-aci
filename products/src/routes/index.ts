@@ -5,7 +5,6 @@ const router = express.Router();
 
 router.get('/api/products', async (req: Request, res: Response) => {
     const products = await Product.find({});
-
     res.send(products);
 })
 

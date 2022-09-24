@@ -1,0 +1,37 @@
+.search_box {
+  margin-right: 10px;
+}
+
+.nav_button {
+  margin-right: 2rem;
+}
+
+.nav_icon {
+  font-size: 1.4rem;
+  color: #a9a9a9;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.nav_icons_mobile {
+  margin-left: 2.5rem;
+}
+
+.notification {
+  display: flex;
+}
+
+.cart_notification {
+  position: relative;
+  bottom: 5px;
+  right: 15px;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+  border: 1px solid red;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: red;
+  text-align: center;
+}

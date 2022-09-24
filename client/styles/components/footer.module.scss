@@ -1,0 +1,133 @@
+$link-light-grey: #a5b0b9;
+$primary-white: #f5f3ed; //before: fed136
+$footer-background-light-grey: #212529;
+$footer-background-grey: #1a1d20;
+$social-buttons-circle-dark-grey: #1a1d20;
+
+.col_md_4:nth-child(even) {
+  // background: blue;
+}
+.col_md_4:nth-child(odd) {
+  // background: red;
+}
+
+a.nav_link {
+  color: $link-light-grey;
+  text-decoration: none;
+}
+
+a:hover.nav_link {
+  color: $primary-white;
+  text-decoration: none;
+}
+
+::selection.nav_link {
+  background: $primary-white;
+  text-shadow: none;
+}
+
+.footer {
+  padding: 2rem 0;
+  background-color: #383333;
+  // .container .row:not(:last-child) {
+  //   padding-bottom: 2rem;
+  // }
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  padding-left: 00.5rem;
+}
+
+.footer_column:not(:first-child) {
+  padding-top: 2rem;
+  @media (min-width: 768px) {
+    padding-top: 0rem;
+  }
+}
+
+.footer_column {
+  text-align: left;
+  margin: 2% 5%;
+  //border: red solid 1px;
+  .nav_item {
+    .nav_link {
+      padding: 0.1rem 0;
+    }
+    span.nav_link {
+      color: $link-light-grey;
+    }
+    span.footer_title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+      text-transform: uppercase;
+    }
+    .fas {
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.flex_column_inline {
+  display: inline-flex;
+  margin-right: 0.5rem;
+}
+
+ul.flex_column {
+  list-style-type: none;
+}
+
+ul.flex_column_inline {
+  list-style-type: none;
+}
+
+ul.social_buttons {
+  margin-bottom: 0;
+}
+
+ul.social_buttons li a:active,
+ul.social_buttons li a:focus,
+ul.social_buttons li a:hover {
+  background-color: $primary-white;
+}
+
+ul.social_buttons li a {
+  font-size: 20px;
+  line-height: 40px;
+  display: inline;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #fff;
+  border-radius: 100%;
+  outline: 0;
+  background-color: $footer-background-grey;
+}
+
+.list_inline {
+  display: inline-block;
+}
+
+footer .quick_links {
+  font-size: 90%;
+  line-height: 40px;
+  margin-bottom: 0;
+  text-transform: none;
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.copyright {
+  color: white;
+}
+
+.fa-ellipsis-h {
+  color: white;
+  padding: 2rem 0;
+}

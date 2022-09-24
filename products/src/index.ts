@@ -11,8 +11,8 @@ const start = async () => {
     //     throw new Error('JWT_KEY must be defined');
     // }
     
-    if (!process.env.MONGO_URI) {
-        throw new Error('MONGO_URI must be defined');
+    if (!process.env.MONGO_PRODUCT_SERVICE) {
+        throw new Error('MONGO_PRODUCT_SERVICE must be defined');
     }
 
     // if (!process.env.NATS_CLIENT_ID) {
@@ -44,7 +44,7 @@ const start = async () => {
         // new OrderCreatedListener(natsWrapper.client).listen();
         // new OrderCancelledListener(natsWrapper.client).listen();
 
-        await mongoose.connect(process.env.MONGO_URI)
+        await mongoose.connect(process.env.MONGO_PRODUCT_SERVICE)
         console.log('Connected to mongodb');
     } catch (err) {
         console.error(err);
@@ -52,8 +52,8 @@ const start = async () => {
 };
 
 // starting server on port 3000
-app.listen(3000, () => {
-    console.log('Product service server listening on port 3000!!')
+app.listen(8001, () => {
+    console.log('Product service server listening on port 8001!!')
 });
 
 start();
