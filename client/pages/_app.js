@@ -7,6 +7,7 @@ import Footer from '../components/footer';
 import CartItemContext from "../context/cartItemContext";
 import UserAuthContext from '../context/userAuthContext';
 import styles from '../styles/layout.scss'; 
+import { IoFileTrayStackedSharp } from 'react-icons/io5';
 // import Zoom from 'react-reveal/Zoom';
 
 const AppComponent = ({ Component, pageProps, products, currentUser }) => {
@@ -57,11 +58,12 @@ AppComponent.getInitialProps = async (appContext) => {
     let pageProps = {};
     console.log('before error')
     // const products = await client.get('http://localhost:8001/api/products');
-    const products = await fetch('http://localhost:8001/api/products')
-    console.log('products ', products)
+    const productRes = await fetch('http://localhost:8001/api/products')
+    console.log('products ', productRes.json());
+    const products = productRes.json();
 
-
-    let currentUser = {};
+    const currentUserRes = await fetch('localhost:8000/api/users/currentuser')
+    const currentUser = currentUserRes.json();
     return {}
     // try {
     //     currentUser = await client.get('8000/api/users/currentuser');
