@@ -54,9 +54,9 @@ const AppComponent = ({ Component, pageProps, products, currentUser }) => {
 AppComponent.getInitialProps = async (appContext) => {    
     const client = buildClient(appContext.ctx); 
     let pageProps = {};
-    const { data } = await client.get('http://localhost:8001/api/products');
+    const { data } = await client.get('http://host.docker.internal:8001/api/products');
     try {
-        const currentUserRes = await client.get('http://localhost:8000/api/users/currentuser');
+        const currentUserRes = await client.get('http://host.docker.internal:8000/api/users/currentuser');
         if (appContext.Component.getInitialProps) pageProps = await appContext.Component.getInitialProps(appContext.ctx, client);
         return {pageProps, products: data, currentUser}
     }

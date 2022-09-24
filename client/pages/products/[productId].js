@@ -69,7 +69,7 @@ ProductShow.getInitialProps = async (context, client) => {
     const {productId} = context.query
     console.log('GET INITIAL CALL FROM PRODUCTS PAGE ')
     try {
-        const { data } = await client.get(`http://localhost:8001/api/products/${productId}`);
+        const { data } = await client.get(`http://host.docker.internal:8001/api/products/${productId}`);
         console.log('product show data ', data);
         return { product: data };
     } catch (err) {
