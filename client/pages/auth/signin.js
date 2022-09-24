@@ -12,7 +12,7 @@ const SignIn = ({ currentUser }) => {
     const [password, setPassword] = useState('');
 
     const { doRequest, errors } = useRequest({
-        url: '/api/users/signin',
+        url: 'http://localhost:8000/api/users/signin',
         method: 'post',
         body: {
           email,

@@ -51,41 +51,19 @@ const AppComponent = ({ Component, pageProps, products, currentUser }) => {
     );
 }
     
-AppComponent.getInitialProps = async (appContext) => {
-    console.log('get initial props');
-    //const client = buildClient(appContext.ctx); 
-
+AppComponent.getInitialProps = async (appContext) => {    
+    const client = buildClient(appContext.ctx); 
     let pageProps = {};
-    console.log('before error')
-    // const products = await client.get('http://localhost:8001/api/products');
-    const productRes = await fetch('http://localhost:8001/api/products')
-    console.log('products ', productRes.json());
-    const products = productRes.json();
-
-    const currentUserRes = await fetch('localhost:8000/api/users/currentuser')
-    const currentUser = currentUserRes.json();
-    return {}
-    // try {
-    //     currentUser = await client.get('8000/api/users/currentuser');
-    // } 
-    // catch (err) {
-    //     console.log(err)
-    // }
-    
-    // finally {
-        
-    //     if (currentUser === {}) {
-    //         if( appContext.Component.getInitialProps) {
-    //             pageProps = await appContext.Component.getInitialProps(appContext.ctx, client);
-    //         }
-    //         return {pageProps, products: [...products.data], currentUser: {}}
-    //     } else {
-    //         if( appContext.Component.getInitialProps) {
-    //             pageProps = await appContext.Component.getInitialProps(appContext.ctx, client);
-    //         }
-    //         return {pageProps, products: [...products.data], ...currentUser.data}
-    //    }
-    // }
+    const { data } = await client.get('http://localhost:8001/api/products');
+    try {
+        const currentUserRes = await client.get('http://localhost:8000/api/users/currentuser');
+        if (appContext.Component.getInitialProps) pageProps = await appContext.Component.getInitialProps(appContext.ctx, client);
+        return {pageProps, products: data, currentUser}
+    }
+    catch (err) {
+        if (appContext.Component.getInitialProps) pageProps = await appContext.Component.getInitialProps(appContext.ctx, client);
+        return {pageProps, products: data, currentUser: null}
+    }
 };
 
 export default AppComponent;

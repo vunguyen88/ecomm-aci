@@ -69,7 +69,7 @@ const MenTopProducts = ({products}) => {
                 </nav>
 
                 <main className={styles.product_view}>
-                    {products.length > 0 
+                    {products && products.length > 0 
                         ? products.map(product => (
                             <Product productDetails={product} key={product.id}/>
                         ))
@@ -83,8 +83,7 @@ const MenTopProducts = ({products}) => {
 }
 
 MenTopProducts.getInitialProps = async (context, client) => {
-    console.log('CLIENT IN IN PRODUCTDEX ', client)
-    console.log('GET INITIAL CALL FROM PRODUCTS PAGE ')
+
     try {
         const { data } = await client.get('/api/products');
         const menProducts = data.filter(product => product.category.includes('men-top'))

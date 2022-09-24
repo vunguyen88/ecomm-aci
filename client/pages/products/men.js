@@ -69,7 +69,7 @@ const MenProducts = ({products}) => {
                 </nav>
 
                 <main className={styles.product_view}>
-                    {products.length > 0 
+                    {products && products.length > 0 
                         ? products.map(product => (
                             <Product productDetails={product} key={product.id}/>
                         ))

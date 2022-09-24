@@ -6,7 +6,7 @@ import styles from '../../styles/auth.module.scss';
 //KNOWN ERROR FOR MAPPED ERRORS
 const SignOut = () => {
     const { doRequest } = useRequest({
-        url: '/api/users/signout',
+        url: 'http://localhost:8000/api/users/signout',
         method: 'post',
         body: {},
         onSuccess: () => Router.push('/')

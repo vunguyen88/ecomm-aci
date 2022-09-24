@@ -11,6 +11,7 @@ import CartItemContext from '../context/cartItemContext';
 import UserAuthContext from '../context/userAuthContext';
 
 const HomeNav = ({ currentUser, products }) => {
+    console.log('current user nav ', currentUser)
     const [ cartItem, setCartItem ] = useState(0);
     const { cartItemCount } = useContext(CartItemContext);
     //const { userAuthInfo } = useContext(UserAuthContext);

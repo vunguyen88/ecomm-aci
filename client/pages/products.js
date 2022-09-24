@@ -4,6 +4,7 @@ import Router from 'next/router';
 import Link from 'next/link';
 
 const Products = ({ currentUser, products }) => {
+    //console.log('products in page ', products)
     const renderProducts = (products) => {
 
         if (products && products.length > 0) {
@@ -91,7 +92,10 @@ const Products = ({ currentUser, products }) => {
 Products.getInitialProps = async (context, client, currentUser) => {
 
     try {
-        const { data } = await client.get('/api/products');
+        // const { data } = await client.get('/api/products');
+        const productRes = await fetch('http://localhost:8001/api/products');
+        const data = await productRes.clone().json();
+        //console.log('data in products ', data)
         return { products: data };
     } catch (err) {
         return {};

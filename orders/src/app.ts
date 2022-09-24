@@ -10,6 +10,7 @@ import { indexOrderRouter } from './routes';
 import { showOrderRouter } from './routes/show';
 import { createProductRouter } from './routes/newProduct';
 import { updateProductRouter } from './routes/updateProduct';
+import { deleteProductRouter } from './routes/deleteProduct';
 // import { errorHandler } from '../../common/src/middlewares/error-handler';
 // import { NotFoundError } from '../../common/src/errors/not-found-error';
 import { errorHandler, NotFoundError, currentUser } from '@vuelaine-ecommerce/common';
@@ -33,6 +34,7 @@ app.use(indexOrderRouter);
 app.use(showOrderRouter);
 app.use(createProductRouter);
 app.use(updateProductRouter);
+app.use(deleteProductRouter);
 app.all('*', async (req, res, next) => {
     next(new NotFoundError());
 });
