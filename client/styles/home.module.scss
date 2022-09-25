@@ -1,0 +1,177 @@
+@import 'layout';
+
+.landing {
+  //height: 100vh;
+  //position: relative;
+  //height: 100vh;
+  //width: 100%;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // background: url('https://images.pexels.com/photos/5235725/pexels-photo-5235725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
+  //   no-repeat center center fixed;
+  // background-size: cover;
+  // opacity: 0.75;
+  // background-repeat: no-repeat;
+  // background-size: 100vh 100vw;
+  //opacity: 0.75;
+  //object-fit: cover;
+  .img_landing {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.75;
+    margin: 0 -200px 0 0;
+  }
+
+  // &::before {
+  //   content: '';
+  //   // background-image: url('https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg?auto=compress&cs=tinysrgb&dpr=1');
+  //   background-image: url('https://images.pexels.com/photos/5872/fashion-red-yellow-designer-5872.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  //   background-position: center;
+  //   background-size: cover;
+  //   position: absolute;
+  //   top: 0px;
+  //   right: 0px;
+  //   bottom: 0px;
+  //   left: 0px;
+  //   opacity: 0.75;
+  // }
+}
+
+.double_image {
+  padding: 2% 10%;
+  margin-left: 5%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //background-color: burlywood;
+  margin-top: 5%;
+  margin-bottom: 1em;
+  .img_container_left {
+    width: 50%;
+    height: 98%;
+    margin: 2% 0%;
+    //background-color: green;
+    display: flex;
+    flex-direction: column;
+    .img_left {
+      float: right;
+      position: relative;
+      max-height: 1000px;
+    }
+    .img_caption {
+      margin-top: 1em;
+      width: 100%;
+      letter-spacing: 0.03em;
+      font-size: 0.9em;
+      font-weight: 200;
+      font-style: normal;
+      color: #959795;
+      font-family: 'CalibreSemibold', Helvetica, Arial, Sans-Serif;
+    }
+  }
+  .img_container_right {
+    margin-left: 5%;
+    width: 50%;
+    height: 75%;
+    margin: 10% 2%;
+    //background-color: blue;
+    .img_right {
+      height: 700px;
+    }
+  }
+}
+
+.single_img {
+  margin-top: 5%;
+  //background-color: yellow;
+  padding: 5% 15%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  .img {
+    margin: -200px 0 0 0px;
+    opacity: 0.85;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.text_section {
+  margin: 1% 10% 0 10%;
+  width: 35%;
+  .text {
+    width: 100%;
+    line-height: 56px !important;
+    letter-spacing: 0.03em;
+    font-size: 0.9em;
+    font-weight: 200;
+    font-style: normal;
+    color: #959795;
+    font-family: 'CalibreSemibold', Helvetica, Arial, Sans-Serif;
+  }
+}
+
+.double_img_center_container {
+  //background-color: navy;
+  margin: 5% 10% 0 10%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+  .img_container {
+    max-height: 90%;
+    display: flex;
+    flex-direction: column;
+    .img {
+      max-height: 100%;
+    }
+    .img_size {
+      height: 850px;
+    }
+  }
+}
+
+.caption {
+  width: 100%;
+  line-height: 56px !important;
+  display: block;
+  letter-spacing: 0.03em;
+  font-size: 0.9em;
+  font-weight: 200;
+  font-style: normal;
+  color: #959795;
+  font-family: 'CalibreSemibold', Helvetica, Arial, Sans-Serif;
+}
+
+// @mixin fadein-animation($duration) {
+//   $name: fadein-#{unique-id()};
+
+//   @keyframes #{$name} {
+//     @content;
+//   }
+
+//   animation-name: $name;
+//   animation-duration: $duration;
+//   animation-iteration-count: none;
+// }
+
+// .landing {
+//   @include fadein-animation(3s) {
+//     0% {
+//       opacity: 0;
+//       height: 0;
+//     }
+//     100% {
+//       opacity: 1;
+//       height: 100vh;
+//     }
+//   }
+// }
+
+// .test {
+//   color: red;
+// }

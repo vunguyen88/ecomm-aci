@@ -1,0 +1,102 @@
+@import 'layout';
+
+.wrapper {
+  padding-top: 8rem;
+  display: flex;
+  margin-bottom: 8rem;
+  width: 100%;
+  max-height: 100vh;
+}
+
+.left_container {
+  width: 55%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+
+.product_img {
+  max-width: 100%;
+}
+
+.right_container {
+  max-width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.product_info {
+  max-width: 65%;
+  padding-left: 5%;
+}
+
+.product_info_container {
+  background-color: blue;
+  max-width: 132em;
+  margin: 0 auto 0 auto;
+  padding: 0 2.5em;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+
+.product_name {
+  font-family: 'CalibreLight', Helvetica, Arial, Sans-Serif;
+  letter-spacing: 0.01em;
+  font-weight: normal;
+  color: #383333;
+  font-size: 1.8em;
+}
+
+.product_type {
+  font-size: 0.8em;
+  color: #95979a;
+  letter-spacing: 0.05em;
+  margin-top: 1.5em;
+}
+
+.product_price {
+  font-size: 1em;
+  color: #383333;
+  font-family: 'CalibreRegular', Helvetica, Arial, Sans-Serif;
+  letter-spacing: 0.1em;
+  margin-top: 0.3em;
+  font-weight: normal;
+  display: block;
+}
+
+.product_details {
+  font-size: 0.8em;
+  color: #95979a;
+  letter-spacing: 0.05em;
+  margin-top: 1.5em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.button {
+  font: 400 13.3333px Arial;
+  text-transform: uppercase;
+  border: 1px solid #ded4cb;
+  background-color: transparent;
+  font-size: 0.7em;
+  color: #383333;
+  font-family: 'CalibreRegular', Helvetica, Arial, Sans-Serif;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 1em 0;
+  width: 170px;
+  height: 40px;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  margin-top: 3rem;
+  cursor: default;
+}

@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  width: 100%;
+  margin: 0.7rem 0;
+}
+
+.img_container {
+  width: 10%;
+  //height: 2rem;
+}
+
+.img {
+  min-width: 10%;
+  max-width: 3rem;
+  //height: 60px;
+}
+
+.product_info {
+  width: 70%;
+  margin-left: 2%;
+  .size {
+    position: relative;
+    //bottom: 20%;
+    font-weight: lighter;
+    //color: #c8c8c8;
+  }
+}
+
+.price {
+  text-align: right;
+  margin-left: 20%;
+  //   float: right;
+}

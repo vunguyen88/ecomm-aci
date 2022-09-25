@@ -1,0 +1,256 @@
+[
+    {
+        "name": "Men Top Collection",
+        "price": 75,
+        "size": ["S", "M"],
+        "details": "Cursus mattis molestie a iaculis at. Vitae auctor eu augue ut lectus arcu. Aliquet nibh praesent tristique magna sit amet. Neque sodales ut etiam sit amet nisl purus. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Aenean sed adipiscing diam donec adipiscing. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Ullamcorper eget nulla facilisi etiam dignissim diam. Neque convallis a cras semper. Semper eget duis at tellus at urna condimentum mattis. Id aliquet risus feugiat in ante. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Justo eget magna fermentum iaculis eu non diam phasellus. Aliquam etiam erat velit scelerisque in dictum non. Aliquet bibendum enim facilisis gravida neque convallis. Nulla malesuada pellentesque elit eget gravida cum. Lobortis mattis aliquam faucibus purus in massa tempor nec. Mollis nunc sed id semper risus in hendrerit. Amet nulla facilisi morbi tempus iaculis. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+        "reviews": ["look nice", "nunc sed id", "Neque convallis a cras semper"],
+        "type": "men_top",
+        "category": ["all", "men", "men-top"],
+        "color": ["white"],
+        "productUrl": "https://images.pexels.com/photos/7576328/pexels-photo-7576328.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+    ,
+    {
+        "name": "Men T-Collection",
+        "price": 45,
+        "size": ["S", "M", "L"],
+        "details": "Interdum velit euismod a iaculis at. Vitae auctor eu augue ut lectus arcu. Aliquet nibh praesent tristique magna sit amet. Mi proin sed libero enim sed faucibus. Cum sociis natoque penatibus et. Morbi leo urna molestie at elementum eu. Adipiscing diam donec adipiscing tristique risus. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. A diam maecenas sed enim ut sem viverra aliquet eget. Semper eget duis at tellus at urna condimentum mattis. Id aliquet risus feugiat in ante. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Justo eget magna fermentum iaculis eu non diam phasellus. Aliquam etiam erat velit scelerisque in dictum non. Aliquet bibendum enim facilisis gravida neque convallis. Nulla malesuada pellentesque elit eget gravida cum. Lobortis mattis aliquam faucibus purus in massa tempor nec. Mollis nunc sed id semper risus in hendrerit. Amet nulla facilisi morbi tempus iaculis. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+        "reviews": ["fit nicely", "nunc sed id", "Neque convallis a cras semper"],
+        "type": "men_top",
+        "category": ["all", "men", "men-top"],
+        "color": ["white"],
+        "productUrl": "https://images.pexels.com/photos/3140049/pexels-photo-3140049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+    ,
+    {
+        "name": "Denim Jacket",
+        "price": 89,
+        "size": ["S", "M", "L"],
+        "details": "A diam maecenas sed enim ut sem viverra aliquet eget. Semper eget duis at tellus at urna condimentum mattis. Id aliquet risus feugiat in ante. Cum sociis natoque penatibus et. Morbi leo urna molestie at elementum eu. Adipiscing diam donec adipiscing tristique risus. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. A diam maecenas sed enim ut sem viverra aliquet eget. Semper eget duis at tellus at urna condimentum mattis. Id aliquet risus feugiat in ante. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Justo eget magna fermentum iaculis eu non diam phasellus. Aliquam etiam erat velit scelerisque in dictum non. Aliquet bibendum enim facilisis gravida neque convallis. Nulla malesuada pellentesque elit eget gravida cum. Lobortis mattis aliquam faucibus purus in massa tempor nec. Mollis nunc sed id semper risus in hendrerit. Amet nulla facilisi morbi tempus iaculis. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue",
+        "reviews": ["fit nicely", "nunc sed id", "Neque convallis a cras semper"],
+        "type": "men_top",
+        "category": ["all", "men", "men-top"],
+        "color": ["white"],
+        "productUrl": "https://images.pexels.com/photos/10909254/pexels-photo-10909254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+    ,
+    {
+        "name": "Casual Collection",
+        "price": 50,
+        "size": ["S", "M", "L"],
+        "details": " leo urna molestie at elementum eu. Adipiscing diam donec adipiscing tristique risus. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. A diam maecenas sed enim ut sem viverra aliquet eget. Semper eget duis at tellus at urna condimentum mattis. Id aliquet risus feugiat in ante. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Adipiscing diam donec adipiscing tristique risus. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. A diam maecenas sed enim ut sem viverra aliquet eget. Semper eget duis at tellus at urna condimentum mattis. Id aliquet risus feugiat in ante. Arcu non odio euismod lacinia. Eget nullam non nisi est sit amet. Arcu dictum varius duis at consectetur. Est velit egestas dui id ornare arcu odio. At augue eget arcu dictum varius duis. Aliquet bibendum enim facilisis gravida neque convallis. Nulla malesuada pellentesque elit eget gravida cum. Lobortis mattis aliquam faucibus purus in massa tempor nec. Mollis nunc sed id semper risus in hendrerit. Amet nulla facilisi morbi tempus iaculis. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+        "reviews": ["love the style", "nunc sed id", "Neque convallis a cras semper"],
+        "type": "men_top",
+        "category": ["all", "men", "men-top"],
+        "color": ["white"],
+        "productUrl": "https://images.pexels.com/photos/9461269/pexels-photo-9461269.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+    ,
+    {
+        "name": "Men Bottom Collection",
+        "price": 55,
+        "size": ["S", "M"],
+        "details": "Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum. Mattis nunc sed blandit libero volutpat. Habitant morbi tristique senectus et. Tortor condimentum lacinia quis vel. Interdum velit euismod in pellentesque massa placerat duis ultricies. Lacus sed turpis tincidunt id aliquet risus feugiat in. Auctor augue mauris augue neque gravida in fermentum et sollicitudin. Arcu non odio euismod lacinia. Eget nullam non nisi est sit amet. Arcu dictum varius duis at consectetur. Est velit egestas dui id ornare arcu odio. At augue eget arcu dictum varius duis. Diam volutpat commodo sed egestas egestas fringilla phasellus.",
+        "reviews": ["look good", "augue eget arcu", "Diam volutpat commodo sed egestas", "volutpat commodo sed egestas egestas fringilla phasellus"], 
+        "type": "men_bottom",
+        "category": ["all", "men", "men-bottom"],
+        "color": ["white"],
+        "productUrl": "https://images.pexels.com/photos/3526644/pexels-photo-3526644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+    ,
+    {
+        "name": "Men Jogger",
+        "price": 75,
+        "size": ["S", "M", "L"],
+        "details": "Adipiscing diam donec adipiscing tristique risus. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. A diam maecenas sed enim ut sem viverra aliquet eget. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper. Interdum velit euismod in pellentesque massa placerat duis ultricies. Lacus sed turpis tincidunt id aliquet risus feugiat in. Auctor augue mauris augue neque gravida in fermentum et sollicitudin. Arcu non odio euismod lacinia. Eget nullam non nisi est sit amet. Arcu dictum varius duis at consectetur. Est velit egestas dui id ornare arcu odio. At augue eget arcu dictum varius duis. Diam volutpat commodo sed egestas egestas fringilla phasellus.",
+        "reviews": ["look good", "augue eget arcu", "Diam volutpat commodo sed egestas", "volutpat commodo sed egestas egestas fringilla phasellus"], 
+        "type": "men_bottom",
+        "category": ["all", "men", "men-bottom"],
+        "color": ["white"],
+        "productUrl": "https://images.pexels.com/photos/6311142/pexels-photo-6311142.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+    ,
+    {
+        "name": "Men Short",
+        "price": 39,
+        "size": ["S", "M", "L"],
+        "details": "Morbi leo urna molestie at elementum eu. Adipiscing diam donec adipiscing tristique risus. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper. Interdum velit euismod in pellentesque massa placerat duis ultricies. Lacus sed turpis tincidunt id aliquet risus feugiat in. Auctor augue mauris augue neque gravida in fermentum et sollicitudin. Arcu non odio euismod lacinia. Eget nullam non nisi est sit amet. Arcu dictum varius duis at consectetur. Arcu non odio euismod lacinia. Eget nullam non nisi est sit amet. Arcu dictum varius duis at consectetur.",
+        "reviews": ["look good", "augue eget arcu", "Diam volutpat commodo sed egestas", "volutpat commodo sed egestas egestas fringilla phasellus"], 
+        "type": "men_bottom",
+        "category": ["all", "men", "men-bottom"],
+        "color": ["white"],
+        "productUrl": "https://images.pexels.com/photos/10204771/pexels-photo-10204771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+    ,
+    {
+        "name": "Women Top Collection",
+        "price": 45,
+        "size": ["S", "M"],
+        "details": "Vitae suscipit tellus mauris a diam maecenas. Cum sociis natoque penatibus et. Morbi leo urna molestie at elementum eu. Adipiscing diam donec adipiscing tristique risus. Mi proin sed libero enim sed faucibus. Cum sociis natoque penatibus et. Morbi leo urna molestie at elementum eu. Adipiscing diam donec adipiscing tristique risus. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. A diam maecenas sed enim ut sem viverra aliquet eget. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper. Faucibus et molestie ac feugiat sed lectus vestibulum mattis. Proin sed libero enim sed faucibus turpis in eu. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Ut morbi tincidunt augue interdum velit euismod. Id cursus metus aliquam eleifend mi.",
+        "reviews": ["fit well", " Commodo odio aenean sed adipiscing"],
+        "type": "women_top",
+        "category": ["all", "women", "women-top"],
+        "color": ["white"],
+        "productUrl": "https://images.pexels.com/photos/884979/pexels-photo-884979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    }
+    ,
+    {
+        "name": "Fall Jacket",
+        "price": 39,
+        "size": ["S", "M"],
+        "details": "Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Sed ullamcorper morbi tincidunt ornare massa. Ultrices vitae auctor eu augue ut lectus arcu bibendum at. Mi proin sed libero enim sed faucibus. Cum sociis natoque penatibus et. Morbi leo urna molestie at elementum eu. Adipiscing diam donec adipiscing tristique risus. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. A diam maecenas sed enim ut sem viverra aliquet eget. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper. Faucibus et molestie ac feugiat sed lectus vestibulum mattis. Proin sed libero enim sed faucibus turpis in eu. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Ut morbi tincidunt augue interdum velit euismod. Id cursus metus aliquam eleifend mi.",
+        "reviews": ["fit well", " Commodo odio aenean sed adipiscing"],
+        "type": "women_top",
+        "category": ["all", "women", "women-top"],
+        "color": ["white"],
+        "productUrl": "https://images.pexels.com/photos/5836080/pexels-photo-5836080.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+    ,
+    {
+        "name": "Women Top Outfit",
+        "price": 110,
+        "size": ["S", "M"],
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In iaculis nunc sed augue lacus viverra vitae congue eu. Vitae suscipit tellus mauris a diam maecenas. Cum sociis natoque penatibus et. Morbi leo urna molestie at elementum eu. Adipiscing diam donec adipiscing tristique risus. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. A diam maecenas sed enim ut sem viverra aliquet eget. At lectus urna duis convallis convallis tellus. A cras semper auctor neque vitae tempus quam. A arcu cursus vitae congue. Justo nec ultrices dui sapien eget mi proin. Proin sed libero enim sed faucibus turpis in eu. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Ut morbi tincidunt augue interdum velit euismod. Id cursus metus aliquam eleifend mi.",
+        "reviews": ["fit well", " Commodo odio aenean sed adipiscing"],
+        "type": "women_top",
+        "category": ["all", "women", "women-top"],
+        "color": ["white"],
+        "productUrl": "https://images.pexels.com/photos/11075319/pexels-photo-11075319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+    ,
+    {
+        "name": "Women Fall Collection",
+        "price": 105,
+        "size": ["S", "M"],
+        "details": "A diam maecenas sed enim ut sem viverra aliquet eget. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper. Faucibus et molestie ac feugiat sed lectus vestibulum mattis. Proin sed libero enim sed faucibus turpis in eu. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Ut morbi tincidunt augue interdum velit euismod. Id cursus metus aliquam eleifend mi. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Sed ullamcorper morbi tincidunt ornare massa. Ultrices vitae auctor eu augue ut lectus arcu bibendum at. Mi proin sed libero enim sed faucibus. Cum sociis natoque penatibus et. Morbi leo urna molestie at elementum eu. Adipiscing diam donec adipiscing tristique risus. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus.",
+        "reviews": ["fit well", " Commodo odio aenean sed adipiscing"],
+        "type": "women_top",
+        "category": ["all", "women", "women-top"],
+        "color": ["white"],
+        "productUrl": "https://images.pexels.com/photos/9572644/pexels-photo-9572644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    }
+    ,
+    {
+        "name": "Women Bottom Collection",
+        "price": 60,
+        "size": ["S", "M"],
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In iaculis nunc sed augue lacus viverra vitae congue eu. Vitae suscipit tellus mauris a diam maecenas. Sit amet massa vitae tortor condimentum lacinia. At urna condimentum mattis pellentesque. Ornare massa eget egestas purus. Tristique sollicitudin nibh sit amet. At lectus urna duis convallis convallis tellus. A cras semper auctor neque vitae tempus quam. A arcu cursus vitae congue. Justo nec ultrices dui sapien eget mi proin. Porta nibh venenatis cras sed felis. Id aliquet lectus proin nibh nisl condimentum id. Ullamcorper sit amet risus nullam eget felis eget nunc lobortis. Tortor id aliquet lectus proin nibh nisl condimentum id. Ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt.",
+        "reviews": ["a little too long", "Tristique sollicitudin nibh sit amet", "Tortor id aliquet lectus proin"],
+        "type": "women_bottom",
+        "category": ["all", "women", "women-bottom"],
+        "color": ["gray"],
+        "productUrl": "https://images.pexels.com/photos/1381556/pexels-photo-1381556.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    }
+    ,
+    {
+        "name": "Women Denim Collection", 
+        "price": 60,
+        "size": ["S", "M"],
+        "details": "Porta nibh venenatis cras sed felis. Id aliquet lectus proin nibh nisl condimentum id. Ullamcorper sit amet risus nullam eget felis eget nunc lobortis.Vitae suscipit tellus mauris a diam maecenas. Sit amet massa vitae tortor condimentum lacinia. At urna condimentum mattis pellentesque. Ornare massa eget egestas purus. Tristique sollicitudin nibh sit amet. At lectus urna duis convallis convallis tellus. A cras semper auctor neque vitae tempus quam. A arcu cursus vitae congue. Justo nec ultrices dui sapien eget mi proin. Porta nibh venenatis cras sed felis. Id aliquet lectus proin nibh nisl condimentum id. Ullamcorper sit amet risus nullam eget felis eget nunc lobortis. Tortor id aliquet lectus proin nibh nisl condimentum id. Tortor id aliquet lectus proin nibh nisl condimentum id.",
+        "reviews": ["a little too long", "Tristique sollicitudin nibh sit amet", "Tortor id aliquet lectus proin"],
+        "type": "women_bottom",
+        "category": ["all", "women", "women-bottom"],
+        "color": ["gray"],
+        "productUrl": "https://images.pexels.com/photos/10802672/pexels-photo-10802672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+    ,
+    {
+        "name": "Women Dress Collection",
+        "price": 75,
+        "size": ["S", "M"],
+        "details": "Tristique sollicitudin nibh sit amet. At lectus urna duis convallis convallis tellus. A cras semper auctor neque vitae tempus quam. A arcu cursus vitae congue. Justo nec ultrices dui sapien eget mi proin. Porta nibh venenatis cras sed felis. Id aliquet lectus proin nibh nisl condimentum id. Ullamcorper sit amet risus nullam eget felis eget nunc lobortis. Tortor id aliquet lectus proin nibh nisl condimentum id. Ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In iaculis nunc sed augue lacus viverra vitae congue eu. Vitae suscipit tellus mauris a diam maecenas. Sit amet massa vitae tortor condimentum lacinia. At urna condimentum mattis pellentesque. Ornare massa eget egestas purus.",
+        "reviews": ["a little too long", "Tristique sollicitudin nibh sit amet", "Tortor id aliquet lectus proin"],
+        "type": "women_bottom",
+        "category": ["all", "women"],
+        "color": ["yellow"],
+        "productUrl": "https://images.pexels.com/photos/7088643/pexels-photo-7088643.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    }
+    ,
+    {
+        "name": "Fall Collection I",
+        "price": 20,
+        "size": ["L", "XL"],
+        "details": "In collaboration with Florence Merlin — Create an heirloom baby collection as lovely as the newest addition to your family. These beautiful pieces worked in our Ultimate Merino fingering weight — Tynd, features subtle details and delicate finishing; each one crafted with love by you! There is a total of 4 patterns in this e-book. You’ll find additional images from the collection only available in the e-book.",
+        "reviews": ["look good"],
+        "type": "kids",
+        "category": ["all", "kids"],
+        "color": ["white"],
+        "productUrl": "https://images.pexels.com/photos/9603628/pexels-photo-9603628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    }
+    ,
+    {
+        "name": "Lille Boy Collection",
+        "price": 25,
+        "size": ["S", "M"],
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "reviews": ["look good", "sunt in culpa qui officia deserunt"],
+        "type": "kids_boy",
+        "category": ["all", "kids", "kids-boy"],
+        "color": ["white"],
+        "productUrl": "https://images.pexels.com/photos/6182388/pexels-photo-6182388.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    }
+    ,
+    {
+        "name": "Lille Woven Collection",
+        "price": 35,
+        "size": ["S", "M"],
+        "details": "Scelerisque felis imperdiet proin fermentum leo vel. Aliquet enim tortor at auctor urna nunc id cursus. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "reviews": ["look good", "sunt in culpa qui officia deserunt"],
+        "type": "kids_boy",
+        "category": ["all", "kids", "kids-boy"],
+        "color": ["white"],
+        "productUrl": "https://images.pexels.com/photos/5559989/pexels-photo-5559989.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+    ,
+    {
+        "name": "Boy T Collection",
+        "price": 25,
+        "size": ["S", "M"],
+        "details": "Nibh ipsum consequat nisl vel pretium lectus. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Quis risus sed vulputate odio ut enim. Adipiscing bibendum est ultricies integer quis. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "reviews": ["look good", "sunt in culpa qui officia deserunt"],
+        "type": "kids_boy",
+        "category": ["all", "kids", "kids-boy"],
+        "color": ["white"],
+        "productUrl": "https://images.pexels.com/photos/6437596/pexels-photo-6437596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+    ,
+    {
+        "name": "Lille Girl Collection",
+        "price": 25,
+        "size": ["S", "M"],
+        "details": "Fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed. Duis ultricies lacus sed turpis tincidunt id aliquet. Vel turpis nunc eget lorem dolor sed viverra ipsum. Sit amet risus nullam eget felis. Scelerisque felis imperdiet proin fermentum leo vel. Aliquet enim tortor at auctor urna nunc id cursus. Quis risus sed vulputate odio ut enim. Adipiscing bibendum est ultricies integer quis. Sed turpis tincidunt id aliquet risus feugiat in ante. Nibh ipsum consequat nisl vel pretium lectus. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo.",
+        "reviews": ["bibendum est ultricies", " ultricies integer quis", "id aliquet risus"],
+        "type": "kids_girl",
+        "category": ["all", "kids", "kids-girl"],
+        "color": ["white"],
+        "productUrl": "https://images.pexels.com/photos/3662979/pexels-photo-3662979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    }
+    ,
+    {
+        "name": "Girl Woven Collection",
+        "price": 30,
+        "size": ["S", "M"],
+        "details": "Quis risus sed vulputate odio ut enim. Adipiscing bibendum est ultricies integer quis. Sed turpis tincidunt id aliquet risus feugiat in ante. Nibh ipsum consequat nisl vel pretium lectus. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Scelerisque felis imperdiet proin fermentum leo vel. Aliquet enim tortor at auctor urna nunc id cursus. Adipiscing bibendum est ultricies integer quis. Sed turpis tincidunt id aliquet risus feugiat in ante. Nibh ipsum consequat nisl vel pretium lectus. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo.",
+        "reviews": ["bibendum est ultricies", " ultricies integer quis", "id aliquet risus"],
+        "type": "kids_girl",
+        "category": ["all", "kids", "kids-girl"],
+        "color": ["white"],
+        "productUrl": "https://images.pexels.com/photos/4544904/pexels-photo-4544904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+    ,
+    {
+        "name": "Girl Casual Collection",
+        "price": 20,
+        "size": ["S", "M"],
+        "details": "Aliquet enim tortor at auctor urna nunc id cursus. Adipiscing bibendum est ultricies integer quis. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Scelerisque felis imperdiet proin fermentum leo vel. Aliquet enim tortor at auctor urna nunc id cursus. Adipiscing bibendum est ultricies integer quis. Sed turpis tincidunt id aliquet risus feugiat in ante. Nibh ipsum consequat nisl vel pretium lectus. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo.",
+        "reviews": ["bibendum est ultricies", " ultricies integer quis", "id aliquet risus"],
+        "type": "kids_girl",
+        "category": ["all", "kids", "kids-girl"],
+        "color": ["white"],
+        "productUrl": "https://images.pexels.com/photos/7169755/pexels-photo-7169755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+]
+
+
+

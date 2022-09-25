@@ -9,5 +9,30 @@ services:
     stdin_open: true
     tty: true
     env_file:
-      - ./env/mongo.env
+      - ./env/secret.env
+    ports: 
+      - '8000:8000'
+  product:
+    build: ./products
+    stdin_open: true
+    tty: true
+    env_file:
+      - ./env/secret.env
+    ports: 
+      - '8001:8001'
+  client:
+    build: ./client
+    stdin_open: true
+    tty: true
+    ports: 
+      - '3000:3000'
+  order:
+    build: ./orders
+    stdin_open: true
+    tty: true
+    env_file:
+      - ./env/secret.env
+    ports:
+      - '8002:8002'
+
   # client:

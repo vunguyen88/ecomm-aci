@@ -1,0 +1,52 @@
+.container {
+  margin-top: 1rem;
+  border: solid 2px #dcdcdc;
+  //background-color: red;
+  .header {
+    background-color: #dddddd;
+    padding-top: 15px;
+    display: flex;
+    .order_status {
+      width: 15%;
+      margin-left: 2rem;
+      span {
+        margin-left: 1rem;
+      }
+    }
+    .order_total {
+      width: 10%;
+    }
+    .order_shipto {
+      width: 15%;
+    }
+    .order_number {
+      margin-left: auto;
+      margin-right: 2rem;
+    }
+    .header_value {
+      margin-top: -10px;
+    }
+  }
+  .body {
+    padding: 2rem;
+    display: flex;
+    .product_image_section {
+      .img {
+        min-width: 6%;
+        max-width: 2.5rem;
+        //height: 60px;
+      }
+    }
+    .product_detail_section {
+      margin-left: 2rem;
+      width: 85%;
+    }
+    .product_count {
+      margin-left: auto;
+    }
+  }
+}
+.divider {
+  width: 95%;
+  margin: auto;
+}
