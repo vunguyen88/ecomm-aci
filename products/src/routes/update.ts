@@ -76,7 +76,9 @@ router.put(
     // })
 
     // axios call to update same product in order service
+    // axios.put(`https://order-acd3hddtua-uc.a.run.app/api/orders/products/${req.params.id}`, product, {
     axios.put(`http://host.docker.internal:3002/api/orders/products/${req.params.id}`, product, {
+
             headers: {'cookie': req.headers.cookie}
         })
             .then(orderRes => {

@@ -64,7 +64,9 @@ router.post(
         // });
         
         // making call to add product to order service
+        // axios.post('https://order-acd3hddtua-uc.a.run.app/api/orders/products', product, {
         axios.post('http://host.docker.internal:3002/api/orders/products', product, {
+
             headers: {'cookie': req.headers.cookie}
         })
             .then(orderRes => {

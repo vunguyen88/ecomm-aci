@@ -50,7 +50,9 @@ router.delete(
     // })
 
     // axios call to update same product in order service
+    // axios.delete(`https://order-acd3hddtua-uc.a.run.app/api/orders/products/${req.params.id}`, {
     axios.delete(`http://host.docker.internal:8002/api/orders/products/${req.params.id}`, {
+
             headers: {'cookie': req.headers.cookie}
         })
             .then(orderRes => {
